@@ -8,6 +8,7 @@ namespace TaskProjectWebAPI.Implementations.Repositories
     {
         public QuestionRepository(ApplicationContext context) : base(context)
         {
+            
         }
     }
 }
