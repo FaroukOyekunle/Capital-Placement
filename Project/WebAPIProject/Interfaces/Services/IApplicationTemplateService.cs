@@ -1,4 +1,3 @@
-
 using TaskConsole.DTOs.RequestModels;
 using TaskConsole.DTOs.RetrievalModels;
 
@@ -16,6 +15,5 @@ namespace TaskProjectWebAPI.Interfaces.Services
         Task<BaseResponse<IEnumerable<QuestionResponseModel>>> GetQuestionsAsync();
         Task<BaseResponse<QuestionResponseModel>> GetQuestionAsync(string Id);
         Task<BaseResponse<bool>> DeleteQuestionAsync(string Id);
-        
     }
 }
