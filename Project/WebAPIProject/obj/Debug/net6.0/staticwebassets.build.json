@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZfEkZKgRjY+XJDdJrUs5LEMD4KocRfcHyblMJwKG+nc=",
+  "Source": "TaskProjectWebAPI",
+  "BasePath": "_content/TaskProjectWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
