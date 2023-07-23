@@ -1,13 +1,21 @@
-using ConsoleProject.Models;
+using ConsoleProject.Models; 
 
-namespace ConsoleProject.DTOs.RequestModels.Stage;
-
+namespace ConsoleProject.DTOs.RequestModels.Stage
+{
+    // UpdateVideoInterviewStage class represents the data transfer object (DTO) used for updating a video interview stage
     public class UpdateVideoInterviewStage
     {
-        public string StageName {get; set;}
-        public List<VideoInterviewQuestion> VideoInterviewQuestions {get; set;} = new List<VideoInterviewQuestion>();
+        // StageName property represents the updated name of the video interview stage
+        public string StageName { get; set; }
+
+        // VideoInterviewQuestions property represents a list of updated video interview questions for the stage
+        public List<VideoInterviewQuestion> VideoInterviewQuestions { get; set; } = new List<VideoInterviewQuestion>();
     }
+
+    // UpdateUsualStage class represents the data transfer object (DTO) used for updating a usual (generic) stage
     public class UpdateUsualStage
     {
-        public string StageName {get; set;}
+        // StageName property represents the updated name of the usual stage
+        public string StageName { get; set; }
     }
+}
