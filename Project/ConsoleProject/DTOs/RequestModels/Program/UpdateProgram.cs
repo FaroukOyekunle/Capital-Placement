@@ -1,13 +1,17 @@
-using ConsoleProject.Models;
+using ConsoleProject.Models; 
 
-namespace ConsoleProject.DTOs.RequestModels;
-
-public class UpdateProgram
+namespace ConsoleProject.DTOs.RequestModels
 {
-   public List<string> Benefits {get; set;}
+    // UpdateProgram class represents the data transfer object (DTO) used for updating an existing program
+    public class UpdateProgram
+    {
+        // Benefits property represents a list of benefits offered by the program
+        public List<string> Benefits { get; set; }
 
-   public List<string> ApplicationCriteria {get; set;} 
-   
-   public List<ProgramLocation> ProgramLocations {get; set;}
-     
+        // ApplicationCriteria property represents a list of criteria for application
+        public List<string> ApplicationCriteria { get; set; }
+
+        // ProgramLocations property represents a list of locations where the program takes place
+        public List<ProgramLocation> ProgramLocations { get; set; }
+    }
 }
