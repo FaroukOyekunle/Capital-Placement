@@ -1,18 +1,39 @@
-using ConsoleProject.Enums;
-using ConsoleProject.Models;
+using ConsoleProject.Enums; 
+using ConsoleProject.Models; 
 
-namespace ConsoleProject.DTOs.RetrievalModels;
-
-public class ApplicationModel
+namespace ConsoleProject.DTOs.RetrievalModels
 {
-    public string FirstName{get; set;}
-    public string LastName {get; set;}
-    public string EmailAddress {get; set;}
-    public string PhoneNumber {get; set;}
-    public string ApplicationCoverImage {get; set;}
-    public string Nationality {get; set;}
-    public string CurrentResidence {get; set;}
-    public string IdNumber {get; set;}
-    public Gender Gender {get; set;}
-    public Profile Profile {get; set;}
+    // ApplicationModel represents the data transfer object (DTO) for an application retrieval model.
+    public class ApplicationModel
+    {
+        // FirstName property holds the first name of the applicant.
+        public string FirstName { get; set; }
+
+        // LastName property holds the last name of the applicant.
+        public string LastName { get; set; }
+
+        // EmailAddress property holds the email address of the applicant.
+        public string EmailAddress { get; set; }
+
+        // PhoneNumber property holds the phone number of the applicant.
+        public string PhoneNumber { get; set; }
+
+        // ApplicationCoverImage property holds the cover image of the application.
+        public string ApplicationCoverImage { get; set; }
+
+        // Nationality property holds the nationality of the applicant.
+        public string Nationality { get; set; }
+
+        // CurrentResidence property holds the current residence address of the applicant.
+        public string CurrentResidence { get; set; }
+
+        // IdNumber property holds the identification number of the applicant.
+        public string IdNumber { get; set; }
+
+        // Gender property represents the gender of the applicant. It uses the Gender enumeration.
+        public Gender Gender { get; set; }
+
+        // Profile property holds the applicant's profile information. It uses the Profile class from the Models namespace.
+        public Profile Profile { get; set; }
+    }
 }
