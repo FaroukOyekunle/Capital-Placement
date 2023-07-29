@@ -1,6 +1,9 @@
-namespace ConsoleProject.Models;
-
-public class FileUploadQuestion 
+namespace ConsoleProject.Models
 {
-    public string FilePath {get; set;}
+    // FileUploadQuestion represents a class that holds information about a file upload question.
+    public class FileUploadQuestion
+    {
+        // FilePath represents the file path where the uploaded file will be stored.
+        public string FilePath { get; set; }
+    }
 }
