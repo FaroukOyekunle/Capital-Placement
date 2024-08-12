@@ -1,10 +1,9 @@
-using System.ComponentModel.DataAnnotations; 
 using ConsoleProject.Enums; 
 using ConsoleProject.Models; 
+using System.ComponentModel.DataAnnotations; 
 
 namespace ConsoleProject.DTOs.RequestModels
 {
-    // CreateApplication class represents the data transfer object (DTO) used for creating an application
     public class CreateApplication
     {
         // [Required] attribute ensures that ApplicationCoverImage property must be provided and cannot be null or empty
