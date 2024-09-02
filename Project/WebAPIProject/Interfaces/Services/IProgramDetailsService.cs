@@ -1,7 +1,7 @@
-﻿using TaskConsole.DTOs.RetrievalModels;
-using TaskConsole.DTOs.RequestModels;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+﻿using TaskConsole.DTOs.RetrievalModels;
+using TaskConsole.DTOs.RequestModels;
 
 namespace TaskProjectWebAPI.Interfaces.Services
 {
