@@ -4,7 +4,6 @@ using WebAPIProject.Interfaces.Repositories;
 
 namespace WebAPIProject.Implementations.Repositories
 {
-    // Define the ApplicationRepository class that implements the IApplicationRepository interface.
     public class ApplicationRepository : GenericRepository<Application>, IApplicationRepository
     {
         // Constructor that takes an ApplicationContext instance and passes it to the base class constructor.
