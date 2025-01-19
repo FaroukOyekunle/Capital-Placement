@@ -1,5 +1,5 @@
-using System.ComponentModel.DataAnnotations;
 using ConsoleProject.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace ConsoleProject.Models
 {
